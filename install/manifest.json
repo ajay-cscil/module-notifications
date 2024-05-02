@@ -1,0 +1,144 @@
+{
+    "version": "0.0.2",
+    "small_data_set": 1,
+    "medium_data_set": 1,
+    "large_data_set": 1,
+    "include_locale_design": 1,
+    "include_model_design": 1,
+    "include_controller_design": 1,
+    "_acl": [
+        {
+            "id": "148",
+            "aro_id_model": "users",
+            "aro_id": "148",
+            "__aro_id": "Tushar TAKKAR"
+        },
+        {
+            "id": "1726",
+            "aro_id_model": "groups",
+            "aro_id": "1726",
+            "__aro_id": "Canada Startup Company - CTO"
+        }
+    ],
+    "_acl_delete": [
+        {
+            "id": "148",
+            "aro_id_model": "users",
+            "aro_id": "148",
+            "__aro_id": "Tushar TAKKAR"
+        },
+        {
+            "id": "1726",
+            "aro_id_model": "groups",
+            "aro_id": "1726",
+            "__aro_id": "Canada Startup Company - CTO"
+        }
+    ],
+    "_acl_edit": [
+        {
+            "id": "148",
+            "aro_id_model": "users",
+            "aro_id": "148",
+            "__aro_id": "Tushar TAKKAR"
+        },
+        {
+            "id": "1726",
+            "aro_id_model": "groups",
+            "aro_id": "1726",
+            "__aro_id": "Canada Startup Company - CTO"
+        }
+    ],
+    "_acl_tmp": null,
+    "_acl_tmp_delete": null,
+    "_acl_tmp_edit": null,
+    "author": "CSC",
+    "category_id": "7",
+    "company": "CSC",
+    "created": "2024-05-02",
+    "created_by": "148",
+    "current_stable_version": null,
+    "description": "notifications",
+    "flags": null,
+    "id": "66295746-3474-4b99-9888-47c3ac69033c",
+    "industry_id": "2",
+    "is_active": "1",
+    "is_demo_data": "0",
+    "is_installed": "1",
+    "is_public": "1",
+    "label": "Notifications",
+    "latest_version": null,
+    "license_agreement": null,
+    "modified": "2024-04-24 19:02:30",
+    "modified_by": null,
+    "name": "notifications",
+    "owned_by": "148",
+    "revision": null,
+    "svn_repository": "https:\/\/primod.svn.cloudforge.com\/maaxapps\/trunk\/notifications",
+    "_acl_comment": [
+        {
+            "id": "148",
+            "aro_id_model": "users",
+            "aro_id": "148",
+            "__aro_id": "Tushar TAKKAR"
+        },
+        {
+            "id": "1726",
+            "aro_id_model": "groups",
+            "aro_id": "1726",
+            "__aro_id": "Canada Startup Company - CTO"
+        }
+    ],
+    "__created_by": "Tushar TAKKAR",
+    "created_by_user_name": "tushar@canstartco.com",
+    "__modified_by": "",
+    "modified_by_user_name": null,
+    "__owned_by": "Tushar TAKKAR",
+    "owned_by_user_name": "tushar@canstartco.com",
+    "__category_id": "IT & Administration",
+    "category_id_business_key": "IT & Administration",
+    "__industry_id": "General",
+    "industry_id_business_key": "General",
+    "created_by_model": "created_by_user",
+    "owned_by_model": "owned_by_user",
+    "category_id_model": "module_categories",
+    "industry_id_model": "module_industries",
+    "temporary_acl": [],
+    "message_error": "",
+    "inherited_read_acl": "",
+    "inherited_acl_from_models": "",
+    "controllers": {
+        "notifications": "\\module\\notifications\\controller\\notifications"
+    },
+    "models": {
+        "notification_recipients": "\\module\\notifications\\model\\notification_recipients",
+        "notifications": "\\module\\notifications\\model\\notifications",
+        "notification_users": "\\module\\notifications\\model\\notification_users"
+    },
+    "dependencies": {
+        "module": {
+            "development_base": {
+                "version": "1.0.0",
+                "name": "development_base",
+                "company": "Primary Modules",
+                "author": "Tushar Takkar"
+            },
+            "access_controls": {
+                "version": "1.0.0",
+                "name": "access_controls",
+                "company": "Primary Modules",
+                "author": "Tushar Takkar"
+            },
+            "core": {
+                "version": "1.0.0",
+                "name": "core",
+                "company": "Primary Modules",
+                "author": "Tushar Takkar"
+            }
+        },
+        "model": [],
+        "controller": [],
+        "behaviour": {
+            "_module_core_behaviour_revision_log": "\\module\\core\\behaviour\\revision_log"
+        }
+    }
+}

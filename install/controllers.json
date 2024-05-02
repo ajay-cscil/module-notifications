@@ -1,0 +1,23 @@
+[
+    {
+        "_acl": null,
+        "_acl_comment": null,
+        "_acl_delete": null,
+        "_acl_edit": null,
+        "_acl_tmp": null,
+        "_acl_tmp_delete": null,
+        "_acl_tmp_edit": null,
+        "controller_class": "\\module\\notifications\\controller\\notifications",
+        "id": "66295f1a-fde4-4551-8353-4e36ac69033c",
+        "is_demo_data": "0",
+        "is_public": "0",
+        "module_id": "66295746-3474-4b99-9888-47c3ac69033c",
+        "parent_id": null,
+        "properties": "{\"modelClass\":\"\\\\module\\\\notifications\\\\model\\\\notifications\",\"parent_class\":\"\\\\kernel\\\\controller\",\"business_key\":\"66295f1a-ed7c-42a3-a0cf-46bbac69033c\",\"preGenerateID\":\"0\"}",
+        "sequence": "800",
+        "template": "controller",
+        "depth": "1",
+        "full_name": "controller",
+        "is_leaf_node": "1"
+    }
+]

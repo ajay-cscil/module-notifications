@@ -1,0 +1,198 @@
+{
+    "notification_recipients": {
+        "model_class": "\\module\\notifications\\model\\notification_recipients",
+        "design": [],
+        "schema": {
+            "name": "notifications__notification_recipients",
+            "engine": "InnoDB",
+            "version": "10",
+            "row_format": "Dynamic",
+            "collation": "utf8mb3_general_ci",
+            "create_options": "",
+            "comment": "",
+            "schema": {
+                "columns": {
+                    "created": {
+                        "type": "datetime",
+                        "collation": null,
+                        "null": "YES",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "datetime",
+                        "length": "",
+                        "const": 3
+                    },
+                    "created_by": {
+                        "type": "int",
+                        "collation": null,
+                        "null": "YES",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "int",
+                        "length": "",
+                        "const": 0
+                    },
+                    "deleted": {
+                        "type": "tinyint(1)",
+                        "collation": null,
+                        "null": "NO",
+                        "key": "",
+                        "default": "0",
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "int",
+                        "length": "1",
+                        "const": 0
+                    },
+                    "flags": {
+                        "type": "int",
+                        "collation": null,
+                        "null": "YES",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "int",
+                        "length": "",
+                        "const": 0
+                    },
+                    "id": {
+                        "type": "int",
+                        "collation": null,
+                        "null": "NO",
+                        "key": "PRI",
+                        "default": null,
+                        "extra": "auto_increment",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "int",
+                        "length": "",
+                        "const": 0
+                    },
+                    "last_viewed": {
+                        "type": "datetime",
+                        "collation": null,
+                        "null": "YES",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "datetime",
+                        "length": "",
+                        "const": 3
+                    },
+                    "modified": {
+                        "type": "datetime",
+                        "collation": null,
+                        "null": "YES",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "datetime",
+                        "length": "",
+                        "const": 3
+                    },
+                    "modified_by": {
+                        "type": "int",
+                        "collation": null,
+                        "null": "YES",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "int",
+                        "length": "",
+                        "const": 0
+                    },
+                    "name": {
+                        "type": "varchar(45)",
+                        "collation": "utf8mb3_general_ci",
+                        "null": "NO",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "string",
+                        "length": "45",
+                        "const": 4
+                    },
+                    "notification_id": {
+                        "type": "int",
+                        "collation": null,
+                        "null": "YES",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "int",
+                        "length": "",
+                        "const": 0
+                    },
+                    "owned_by": {
+                        "type": "int",
+                        "collation": null,
+                        "null": "YES",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "int",
+                        "length": "",
+                        "const": 0
+                    },
+                    "revision": {
+                        "type": "int",
+                        "collation": null,
+                        "null": "YES",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "int",
+                        "length": "",
+                        "const": 0
+                    },
+                    "user_id": {
+                        "type": "int",
+                        "collation": null,
+                        "null": "YES",
+                        "key": "",
+                        "default": null,
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "int",
+                        "length": "",
+                        "const": 0
+                    }
+                },
+                "indexes": {
+                    "PRIMARY": {
+                        "1": {
+                            "type": "UNIQUE",
+                            "table": "notifications__notification_recipients",
+                            "column": "id"
+                        }
+                    }
+                },
+                "references": []
+            }
+        }
+    }
+}

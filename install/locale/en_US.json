@@ -1,0 +1,270 @@
+{
+    "_acl": null,
+    "_acl_comment": null,
+    "_acl_delete": null,
+    "_acl_edit": null,
+    "_acl_tmp": null,
+    "_acl_tmp_delete": null,
+    "_acl_tmp_edit": null,
+    "description": null,
+    "id": "66295f7f-1adc-4ca9-976a-41d1ac69033c",
+    "is_demo_data": "0",
+    "is_public": "0",
+    "locale_type": "LC_MESSAGES",
+    "module_id": "66295746-3474-4b99-9888-47c3ac69033c",
+    "name": "en_US",
+    "locale_translations": [
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-af54-49ad-8c7d-4369ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "app-menu",
+            "msgstr": "app-menu"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-745c-464f-994f-471dac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "Clone",
+            "msgstr": "Clone"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-c47c-4aa7-b8b9-49e9ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "Configurations",
+            "msgstr": "Configurations"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-d5e8-4794-abaa-448fac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "Create New",
+            "msgstr": "Create New"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-f5b8-4da7-90eb-4615ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "created",
+            "msgstr": "Created"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-7a1c-44b5-a05b-4b99ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "created_by",
+            "msgstr": "Created By"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-0f4c-4a35-9c6e-4935ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "Delete",
+            "msgstr": "Delete"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-ddcc-4903-baa1-498eac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "Delete Selected",
+            "msgstr": "Delete Selected"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-583c-419b-a822-43beac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "deleted",
+            "msgstr": "Deleted"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-7ff4-4364-beeb-4e58ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "e-Mail",
+            "msgstr": "e-Mail"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-7858-4b47-8f86-4890ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "Edit",
+            "msgstr": "Edit"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-17f8-4af2-9d22-4dd7ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "Edit Selected",
+            "msgstr": "Edit Selected"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-f1e4-4241-8299-4306ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "Export Selected",
+            "msgstr": "Export Selected"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-b380-4203-801d-4b97ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "flags",
+            "msgstr": "Flags"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-58fc-4045-ad26-422eac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "id",
+            "msgstr": "Id"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-4ae0-476d-8d6c-4b7eac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "Index",
+            "msgstr": "Index"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-e7d0-428b-b8ce-4acbac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "last_view_time",
+            "msgstr": "Last View Time"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-c014-4881-a719-4df1ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "message",
+            "msgstr": "Message"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-2a30-4e9b-a28e-4211ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "modified",
+            "msgstr": "Modified"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-f52c-4c4f-9a4d-4c33ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "modified_by",
+            "msgstr": "Modified By"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-ea80-4c40-b101-4f3dac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "More",
+            "msgstr": "More"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-329c-428d-9f6b-4a83ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "name",
+            "msgstr": "Name"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-51c0-46fa-9330-4b6dac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "Notifications",
+            "msgstr": "Notifications"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-d254-48d2-9231-495cac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "notifications_domain_logic",
+            "msgstr": "Notifications Domain Logic"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-cb34-4e3d-b174-40a6ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "owned_by",
+            "msgstr": "Owned By"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-2290-493b-a805-4b3bac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "revision",
+            "msgstr": "Revision"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-ffe8-4721-88aa-45f5ac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "url",
+            "msgstr": "Url"
+        },
+        {
+            "description": null,
+            "en_msgstr": null,
+            "id": "66295f80-d47c-4e23-beca-421bac69033c",
+            "is_demo_data": "0",
+            "locale_id": "66295",
+            "msgid": "View",
+            "msgstr": "View"
+        }
+    ]
+}
