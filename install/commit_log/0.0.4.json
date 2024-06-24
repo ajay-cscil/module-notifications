@@ -1,0 +1,31 @@
+{
+    "old_version": "0.0.3",
+    "version": "0.0.4",
+    "\\module\\development_base\\model\\acl_roles": [],
+    "\\module\\development_base\\model\\change_log": [],
+    "\\module\\development_base\\model\\dependencies": [],
+    "\\module\\development_base\\model\\menus": {
+        "66295f69-0624-413c-872a-4b9aac69033c": "0",
+        "66295f69-19fc-4328-ad65-41d7ac69033c": "0",
+        "66295f69-22a8-4a36-8d4c-4315ac69033c": "0",
+        "66295f69-2944-4015-8bad-44c1ac69033c": "0",
+        "66295f69-34d0-4275-aa37-4dd1ac69033c": "0",
+        "66295f69-4964-4a6b-b0c6-48afac69033c": "0",
+        "66295f69-5438-4059-9763-4bb6ac69033c": "0",
+        "66295f69-56fc-4838-ba11-43e1ac69033c": "0",
+        "66295f69-5710-4b55-9680-4869ac69033c": "0",
+        "66295f69-5a6c-4e8c-984b-441cac69033c": "0",
+        "66295f69-770c-40fb-8a28-42acac69033c": "0",
+        "66295f69-943c-41fd-bb16-4670ac69033c": "0",
+        "66295f69-afe8-4909-8677-45d7ac69033c": "0",
+        "66295f69-d728-4043-a42d-41b9ac69033c": "0",
+        "66295f69-dea8-4a23-a98f-4884ac69033c": "0",
+        "66295f69-e180-4603-8079-4681ac69033c": "0"
+    },
+    "\\module\\development_base\\model\\forms": [],
+    "\\module\\development_base\\model\\models": [],
+    "\\module\\development_base\\model\\controllers": [],
+    "\\module\\core\\model\\listviews": [],
+    "\\module\\analytics\\model\\reports": [],
+    "\\module\\core\\model\\printviews": []
+}

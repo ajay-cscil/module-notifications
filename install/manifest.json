@@ -1,5 +1,5 @@
 {
-    "version": "0.0.3",
+    "version": "0.0.5",
     "small_data_set": 1,
     "medium_data_set": 1,
     "large_data_set": 1,
@@ -68,7 +68,7 @@
     "label": "Notifications",
     "latest_version": null,
     "license_agreement": null,
-    "modified": "2024-05-02 19:42:36",
+    "modified": "2024-06-24 15:17:38",
     "modified_by": "148",
     "name": "notifications",
     "owned_by": "148",
