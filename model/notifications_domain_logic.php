@@ -42,10 +42,10 @@
         public function afterSave($created){
             parent::afterSave($created);
             if($created){
-		$recipientUsers=[];
+		        $recipientUsers=[];
                 if(isset($this->data["recipients"]) && is_string($this->data["recipients"])){
-			$this->data["recipients"]=json_decode($this->data["recipients"],true);
-		} 
+			         $this->data["recipients"]=json_decode($this->data["recipients"],true);
+		        } 
                 if(isset($this->data["recipients"]) && is_array($this->data["recipients"])){
                     foreach($this->data["recipients"] as $recipient){
                         if($recipient["related_to_model"] =="groups" && !empty($recipient["related_to"])  ){
