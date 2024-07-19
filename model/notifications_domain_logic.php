@@ -114,6 +114,8 @@
                                 ] 
                         ]);
                         \kernel\pubsub::getInstance()->publish("inapp_notifications",$message);
+                        pr($message);
+                        exit;
                     }
                 }
             }
