@@ -95,7 +95,7 @@
                 $currentApplicationURL=\kernel\configuration::read('current_application_url');
                 $currentApplicationURL=explode('://',$currentApplicationURL)[1];
                 $currentApplicationURL=explode("/",$currentApplicationURL)[0];
-                
+
                 foreach($recipientUsers as $recipientUserID){
                     if(!empty($recipientUserID) && $recipientUserID > 0){
                         \module\notifications\model\notification_users::getInstance()
@@ -118,8 +118,6 @@
                                 ] 
                         ]);
                         \kernel\pubsub::getInstance()->publish("inapp_notifications",$message);
-                        pr($message);
-                        exit;
                     }
                 }
             }
