@@ -103,6 +103,19 @@
                             ],
                             ["validate"=>false]
                         );
+
+                        \kernel\pubsub::getInstance()->publish(
+                            "inapp_notifications",
+                            json_encode([
+                                "url"=> $currentApplicationURL, 
+                                "user_id"=> $recipientUserID, 
+                                "notification"=> [
+                                    "id"=>$this->data["id"],
+                                    "message"=>$this->data["message"],
+                                    "access_url"=>$this->data["access_url"]
+                                ] 
+                            ])
+                        );
                     }
                 }
             }
