@@ -292,6 +292,19 @@
                         "length": "",
                         "const": 0
                     },
+                    "is_demo_data": {
+                        "type": "tinyint",
+                        "collation": null,
+                        "null": "NO",
+                        "key": "",
+                        "default": "0",
+                        "extra": "",
+                        "privileges": "select,insert,update,references",
+                        "comment": "",
+                        "ntype": "int",
+                        "length": "",
+                        "const": 0
+                    },
                     "message": {
                         "type": "varchar(255)",
                         "collation": "utf8mb3_general_ci",

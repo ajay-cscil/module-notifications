@@ -48,11 +48,27 @@
         "version": "0.0.4"
     },
     {
-        "version": "0.0.5",
+        "created": "2024-06-24 15:17:41",
+        "created_by": "148",
+        "deleted": "0",
+        "flags": null,
+        "id": "66798e15-1f28-4e4a-bafa-459cac69033c",
+        "is_commit_pending": "0",
+        "is_demo_data": "0",
+        "modified": null,
+        "modified_by": null,
+        "module_id": "66295746-3474-4b99-9888-47c3ac69033c",
+        "name": "multi commit",
+        "owned_by": null,
+        "revision": null,
+        "version": "0.0.5"
+    },
+    {
+        "version": "0.0.6",
         "name": "multi commit",
         "module_id": "66295746-3474-4b99-9888-47c3ac69033c",
-        "id": "66798e15-1f28-4e4a-bafa-459cac69033c",
-        "created": "2024-06-24 15:17:41",
+        "id": "66fff552-3e08-404e-8ca6-4da5ac69033c",
+        "created": "2024-10-04 14:01:54",
         "created_by": "148"
     }
 ]

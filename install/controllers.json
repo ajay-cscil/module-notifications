@@ -14,7 +14,7 @@
         "module_id": "66295746-3474-4b99-9888-47c3ac69033c",
         "parent_id": null,
         "properties": "{\"modelClass\":\"\\\\module\\\\notifications\\\\model\\\\notifications\",\"parent_class\":\"\\\\kernel\\\\controller\",\"business_key\":\"66295f1a-ed7c-42a3-a0cf-46bbac69033c\",\"preGenerateID\":\"0\"}",
-        "sequence": "800",
+        "sequence": "696",
         "template": "controller",
         "depth": "1",
         "full_name": "controller",

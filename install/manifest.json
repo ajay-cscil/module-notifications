@@ -1,5 +1,5 @@
 {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "small_data_set": 1,
     "medium_data_set": 1,
     "large_data_set": 1,
@@ -8,16 +8,22 @@
     "include_controller_design": 1,
     "_acl": [
         {
+            "id": "-2",
+            "aro_id_model": "users",
+            "aro_id": "-2",
+            "__aro_id": "Maax Modules Development Team"
+        },
+        {
+            "id": "-1",
+            "aro_id_model": "users",
+            "aro_id": "-1",
+            "__aro_id": "Maax Core Development Team"
+        },
+        {
             "id": "148",
             "aro_id_model": "users",
             "aro_id": "148",
-            "__aro_id": "Tushar TAKKAR"
-        },
-        {
-            "id": "1726",
-            "aro_id_model": "groups",
-            "aro_id": "1726",
-            "__aro_id": "Canada Startup Company - CTO"
+            "__aro_id": "Tushar Takkar"
         }
     ],
     "_acl_delete": [
@@ -25,27 +31,27 @@
             "id": "148",
             "aro_id_model": "users",
             "aro_id": "148",
-            "__aro_id": "Tushar TAKKAR"
-        },
-        {
-            "id": "1726",
-            "aro_id_model": "groups",
-            "aro_id": "1726",
-            "__aro_id": "Canada Startup Company - CTO"
+            "__aro_id": "Tushar Takkar"
         }
     ],
     "_acl_edit": [
         {
+            "id": "-2",
+            "aro_id_model": "users",
+            "aro_id": "-2",
+            "__aro_id": "Maax Modules Development Team"
+        },
+        {
+            "id": "-1",
+            "aro_id_model": "users",
+            "aro_id": "-1",
+            "__aro_id": "Maax Core Development Team"
+        },
+        {
             "id": "148",
             "aro_id_model": "users",
             "aro_id": "148",
-            "__aro_id": "Tushar TAKKAR"
-        },
-        {
-            "id": "1726",
-            "aro_id_model": "groups",
-            "aro_id": "1726",
-            "__aro_id": "Canada Startup Company - CTO"
+            "__aro_id": "Tushar Takkar"
         }
     ],
     "_acl_tmp": null,
@@ -54,7 +60,7 @@
     "author": "CSC",
     "category_id": "7",
     "company": "CSC",
-    "created": "2024-06-24",
+    "created": "2024-10-04",
     "created_by": "148",
     "current_stable_version": null,
     "description": "notifications",
@@ -79,21 +85,16 @@
             "id": "148",
             "aro_id_model": "users",
             "aro_id": "148",
-            "__aro_id": "Tushar TAKKAR"
-        },
-        {
-            "id": "1726",
-            "aro_id_model": "groups",
-            "aro_id": "1726",
-            "__aro_id": "Canada Startup Company - CTO"
+            "__aro_id": "Tushar Takkar"
         }
     ],
-    "__created_by": "Tushar TAKKAR",
-    "created_by_user_name": "tushar@canstartco.com",
-    "__modified_by": "Tushar TAKKAR",
-    "modified_by_user_name": "tushar@canstartco.com",
-    "__owned_by": "Tushar TAKKAR",
-    "owned_by_user_name": "tushar@canstartco.com",
+    "primary_acl_group": null,
+    "__created_by": "Tushar Takkar",
+    "created_by_user_name": "tushar@fiyge.com",
+    "__modified_by": "Tushar Takkar",
+    "modified_by_user_name": "tushar@fiyge.com",
+    "__owned_by": "Tushar Takkar",
+    "owned_by_user_name": "tushar@fiyge.com",
     "__category_id": "IT & Administration",
     "category_id_business_key": "IT & Administration",
     "__industry_id": "General",
