@@ -29,7 +29,7 @@
 	public function newNotificationCount(){
          $newNotification=select([
                             "count(1) as notification_count",
-                            "SUM(IF(notification_users.notified=1 AND {$this->alias}.type = 'alert',0,1)) as alert_count"
+                            "SUM(IF(notification_users.notified=0 AND {$this->alias}.type = 'alert',1,0)) as alert_count"
                         ])
                         ->from($this)
                         ->join("notification_users")
