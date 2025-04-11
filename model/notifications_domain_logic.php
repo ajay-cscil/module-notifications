@@ -16,30 +16,32 @@
 
 	public function afterFind(&$data) {
 		parent::afterFind($data);
-	/*	
-	   if(isset($this->query['update_last_viewed']) && $this->query['update_last_viewed']==1){
-		$notificationIDS=array_column($data["data"], "id");
-            	if($notificationIDS){
-                	update(["last_viewed"=>\kernel\locale::systemDatetime()])
-                	->from($this->notification_users)
-                	->where(["user_id"=>\kernel\user::read("id"),"notification_id"=>$notificationIDS])
-                	->execute();
-                }
-           }
-	 */
-	}
+        $notificationIDS=array_column($data["data"], "id");
+        if($notificationIDS){
+                update(["notified"=>1])
+                ->from($this->notification_users)
+                ->where(["user_id"=>\kernel\user::read("id"),"notification_id"=>$notificationIDS])
+                ->execute();
+        }
+    }
+	
 	
 	public function newNotificationCount(){
-         $newNotificationCount=select("count(1)")
-        ->from($this)
-        ->join("notification_users")
-        ->where(["notification_users.user_id"=>\kernel\user::read("id"),"notification_users.last_viewed IS NULL"])
-        ->execute()
-        ->fetch(\PDO::FETCH_COLUMN,0);
-        return intval($newNotificationCount);
-       }
+         $newNotification=select(["count(1) as new_notification_count","SUM(IF(notified==1,0,1)) as new_alert_count"])
+                            ->from($this)
+                            ->join("notification_users")
+                            ->where(["notification_users.user_id"=>\kernel\user::read("id"),"notification_users.last_viewed IS NULL"])
+                            ->execute()
+                            ->fetch(\PDO::FETCH_COLUMN,0);
 
-        public function afterSave($created){
+        if(!is_array($newNotification)){
+            $newNotification=["new_notification_count"=>0,"new_alert_count"=>0];
+        }                    
+        $newNotification=array_merge(["notification_count"=>0,"alert_count"=>0],$newNotification);
+        return $newNotification;
+    }
+
+    public function afterSave($created){
             parent::afterSave($created);
             if($created){
 		        $recipientUsers=[];
@@ -103,7 +105,8 @@
                             [
                                 "user_id"=>$recipientUserID,
                                 "notification_id"=>$this->data[$this->primaryKey],
-                                "last_viewed"=>null
+                                "last_viewed"=>null,
+                                "notified"=>0
                             ],
                             ["validate"=>false]
                         );
