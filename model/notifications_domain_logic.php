@@ -28,8 +28,8 @@
 	
 	public function newNotificationCount(){
          $newNotification=select([
-                            "count(1) as new_notification_count",
-                            "SUM(IF(notified=1,0,1)) as new_alert_count"
+                            "count(1) as notification_count",
+                            "SUM(IF(notified=1,0,1)) as alert_count"
                         ])
                         ->from($this)
                         ->join("notification_users")
@@ -40,7 +40,7 @@
                         ->execute()
                         ->fetch(\PDO::FETCH_ASSOC);
         if(!is_array($newNotification)){
-            $newNotification=["new_notification_count"=>0,"new_alert_count"=>0];
+            $newNotification=["notification_count"=>0,"alert_count"=>0];
         }                    
         $newNotification=array_merge(["notification_count"=>0,"alert_count"=>0],$newNotification);
         return $newNotification;
