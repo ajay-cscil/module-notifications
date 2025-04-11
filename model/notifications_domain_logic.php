@@ -27,12 +27,18 @@
 	
 	
 	public function newNotificationCount(){
-         $newNotification=select(["count(1) as new_notification_count","SUM(IF(notified==1,0,1)) as new_alert_count"])
-                            ->from($this)
-                            ->join("notification_users")
-                            ->where(["notification_users.user_id"=>\kernel\user::read("id"),"notification_users.last_viewed IS NULL"])
-                            ->execute()
-                            ->fetch(\PDO::FETCH_COLUMN,0);
+         $newNotification=select([
+                            "count(1) as new_notification_count",
+                            "SUM(IF(notified=1,0,1)) as new_alert_count"
+                          ])
+                        ->from($this)
+                        ->join("notification_users")
+                        ->where([
+                            "notification_users.user_id"=>\kernel\user::read("id"),
+                            "notification_users.last_viewed IS NULL"
+                        ])
+                        ->execute()
+                        ->fetch(\PDO::FETCH_COLUMN,0);
 
         if(!is_array($newNotification)){
             $newNotification=["new_notification_count"=>0,"new_alert_count"=>0];
